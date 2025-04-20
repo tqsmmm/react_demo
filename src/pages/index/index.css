@@ -1,7 +1,7 @@
 /* /home/jason/react/src/components/index/index.css */
 
 .main-page-layout {
-    min-height: 100vh;
+    height: 100%;
     /* 让布局至少占满整个视口高度 */
     background-color: #f0f2f5;
     /* Ant Design 默认的背景色 */
