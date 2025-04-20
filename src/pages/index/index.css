@@ -1,0 +1,28 @@
+/* /home/jason/react/src/components/index/index.css */
+
+.main-page-layout {
+    min-height: 100vh;
+    /* 让布局至少占满整个视口高度 */
+    background-color: #f0f2f5;
+    /* Ant Design 默认的背景色 */
+}
+
+.main-page-content {
+    padding: 40px;
+    /* 增加内边距 */
+    max-width: 960px;
+    /* 设置最大宽度，让内容居中显示更美观 */
+    margin: 0 auto;
+    /* 水平居中 */
+}
+
+/* 可以根据需要添加更多自定义样式 */
+.ant-card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+    /* 给卡片添加一点阴影 */
+}
+
+.ant-card-head-title .ant-typography {
+    margin-bottom: 0;
+    /* 修正 Card 标题的默认边距 */
+}
